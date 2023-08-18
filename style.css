@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar1{
+    /* border-bottom: 1px solid rgb(238, 238, 238); */
+    border-bottom: 1px solid rgb(238, 238, 238);;
+    height: 86px;
+    position:sticky;
+    top:0px;
+    background-color: white;
+    /* background-color: blue;  */
+}
+
+.vert-lin{
+    border-left: 1px solid rgb(238, 238, 238);;
+    height:100%;
+}
+
+.locatio{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    width:40vw;
+    height: 5vh;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    border: 1px rgb(238, 238, 238);
+}
+
+.inpu{
+    padding-left: 10px;
+    width:40vw ;
+    height: 5vh;
+    border-radius: 10px;
+    outline:none;
+    font-size: 14px;
+    color: rgb(153,153,153);
+}
+
+
+.search-bar>input{
+    border: none;
+    background-color: #f8f8f8;
+}
+
+.login-buttton{
+    height: 100%;
+    background-color: white;
+    font-size: 10px;
+    outline: none;
+}
+
+.login-buttton:hover{
+    background-color: rgb(252, 252, 252);
+}
+
+/* .my-hero{
+    width: 12000px;
+}  */
