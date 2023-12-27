@@ -98,11 +98,12 @@
 }
 
 .categories2{
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     margin-inline: auto;
     width: 85vw;
     overflow-x: auto;
+    align-items: center;
 }
 
 .rowcard{
@@ -167,9 +168,22 @@
 }
 
 .crow{
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     white-space: nowrap;
+    overflow-x: auto;
+    width: 85vw; */
+    width: 100%;
+    white-space:nowrap;
+}
+
+.h1-div{
+    padding-left: 100px;
+}
+
+.crow>div{
+    display: inline-block;
+    margin: 10px;
 }
 
 .cfooter{
@@ -275,4 +289,49 @@ td{
 
 .table2{
     flex:3;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1199px){
+    .logo-class{
+        width: 90px;
+        height: 25px;
+    }
+    .fw-bolder{
+        font-weight: bold !important;
+        font-size: medium;
+    }
+
+    #my-hero-img{
+         width: 767px;
+         height: 150px;
+    }
+    
+
+}
+
+
+@media screen and (min-width:426px) and (max-width: 767px){
+    .logo-class{
+        width: 70px;
+        height: 20px;
+    }
+
+    .fw-bolder{
+        font-weight: bold !important;
+        font-size: small;
+    }
+
+    #my-hero-img{
+    width: 425px;
+    height: 75px;
+    }
+
+    #loginbtn{
+        display: none;
+    }
+
+    .navb-text{
+        display: none;
+    }
 }
