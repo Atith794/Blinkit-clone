@@ -97,6 +97,22 @@
     margin-inline: auto;
 }
 
+.categories-image:hover{
+    /* width:180 !important;
+    height: 220 !important; */
+    scale: 1.5;
+    /* box-shadow: 2px 2px 15px 15px ; */
+}
+
+/* .catimg:hover{
+    box-shadow: solid green !important;
+} */
+
+.categories:hover{
+    background-image: green;
+}
+
+
 .categories2{
     display: flex;
     justify-content: center;
@@ -315,16 +331,12 @@ td{
     .logo-class{
         width: 70px;
         height: 20px;
+        margin-right: 1rem;
     }
 
     .fw-bolder{
         font-weight: bold !important;
         font-size: small;
-    }
-
-    #my-hero-img{
-    width: 425px;
-    height: 75px;
     }
 
     #loginbtn{
@@ -334,4 +346,24 @@ td{
     .navb-text{
         display: none;
     }
+
+    .table2{
+        display: none !important;
+    }
+
+    .mycartBtn{
+        display: none !important;
+    }
+
+    .row2_col2{
+        display: none !important;
+    }
+
+    #my-hero-img{
+    width: 425px;
+    height: 75px;
+    }
+
+    
 }
+
